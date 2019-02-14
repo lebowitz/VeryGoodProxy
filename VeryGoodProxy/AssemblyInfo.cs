@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("VeryGoodProxy")]
 [assembly: AssemblyDescription("Set a default proxy to route requests through Very Good Security")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("lebowitz")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
