@@ -8,3 +8,7 @@ The ExampleWinForm app shows how to integrate:
 
 No changes need to be made to the certificate store.  The library creates root trust for the certificate provided in configuration.  
 If the certificate is not provided in config, it must exist in the windows certificate store.
+
+![Route Config](https://raw.githubusercontent.com/lebowitz/VeryGoodProxy/master/VeryGoodProxy/inboundroute.bmp "Route Config")
+![Filter Config](https://raw.githubusercontent.com/lebowitz/VeryGoodProxy/master/VeryGoodProxy/filters.bmp "Filter Config")
+
