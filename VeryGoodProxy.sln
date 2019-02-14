@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeryGoodProxy", "VeryGoodProxy\VeryGoodProxy.csproj", "{902B8E45-D355-4F36-99FE-30976FA8480F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeryGoodProxy.ExampleWinForm", "VeryGoodProxy.ExampleWinForm\VeryGoodProxy.ExampleWinForm.csproj", "{211AB6BC-9EFB-42B5-81E6-2A177C344C23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{902B8E45-D355-4F36-99FE-30976FA8480F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{902B8E45-D355-4F36-99FE-30976FA8480F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{902B8E45-D355-4F36-99FE-30976FA8480F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211AB6BC-9EFB-42B5-81E6-2A177C344C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211AB6BC-9EFB-42B5-81E6-2A177C344C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211AB6BC-9EFB-42B5-81E6-2A177C344C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211AB6BC-9EFB-42B5-81E6-2A177C344C23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

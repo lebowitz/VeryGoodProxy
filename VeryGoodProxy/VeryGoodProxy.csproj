@@ -49,7 +49,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="README.md" />
     <None Include="VeryGoodProxy.nuspec" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="filters.bmp" />
+    <Content Include="inboundroute.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

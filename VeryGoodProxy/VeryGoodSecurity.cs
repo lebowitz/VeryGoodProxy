@@ -3,12 +3,12 @@ using System.Web;
 using VeryGoodProxy;
 
 // Any project this dll is added to will have its startup hooked
-[assembly: PreApplicationStartMethod(typeof(VeryGoodSecurity), "Start")]
+[assembly: PreApplicationStartMethod(typeof(VeryGoodSecurity), "Init")]
 namespace VeryGoodProxy
 {
     public class VeryGoodSecurity
     {
-        public static void Start()
+        public static void Init()
         {
             if (VeryGoodProxy.IsEnabled)
             {
