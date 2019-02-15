@@ -2,11 +2,11 @@
 
 - Setting HTTP proxy credentials (required) is not supported through .NET application configuration files. Credentials must be registered with winhttp.dll in the IE dialog for proxy config or by modifying registry keys.
 
-- Not all hosts will allow the tenant to trust of the certificate that Very Good Systems uses to bump SSL.
+- Not all hosts will allow the tenant to add trust for the certificate that Very Good Systems uses to sign the bumped SSL.
 
 # What does it do?
 
-.NET certificate validation for the proxied traffic is left intact.  The library adds a specific exception to .NET certificate validation: CA trust for the certificate in the config.  If the certificate is not set in config, it must be trusted by the host.
+.NET certificate validation is left intact.  The library adds a specific exception to the validation: trust for the certificate given in config.  If the certificate is not set in config, it must be trusted by the host.
 
 # Integration
 
