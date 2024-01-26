@@ -1,3 +1,8 @@
+# What Is VeryGoodProxy?
+
+Very Good Security (VGS) is a data security company that offers a unique approach to handling sensitive data, particularly for businesses and startups. 
+VeryGoodProxy is a library that easily integrates any .NET app with VGS.
+
 # Why this library instead of OS?
 
 - Setting HTTP proxy credentials (required) is not supported through .NET application configuration files. Credentials must be registered with winhttp.dll in the IE dialog for proxy config or by modifying registry keys.
